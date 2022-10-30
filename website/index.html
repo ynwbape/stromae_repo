@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Pageweb</title>
+    <!-- Tailwind -->
+    <link rel="stylesheet" href="../Taliwind/dist/style.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/43d3060249.js" crossorigin="anonymous"></script>
+</head>
+<body class="font-sans overflow-y-hidden inline-flex">
+    <!-- Header -->
+    <header id="head-bar" class="hidden fixed top-0 left-0 w-24 h-screen z-50 text-white">
+                    <a href="#home">Accueil</a>
+                    <a href="#artiste">Artiste</a>
+                    <a href="#tracklist">Tracklisting</a>
+                    <a href="#tour">Tournée</a>
+                    <a href="#contact">Contact</a>
+    </header>
+    <main>
+        <div class="inline-flex bg-orange-500 4*w-screen h-screen border-2">
+            <section id="home" class="bg-red-500 w-screen h-screen">
+                <!-- Animation video -->
+                <video autoplay muted preload="metadata" class="object-cover h-full w-screen absolute top-0 left-0">
+                    <source src="./Videos/website_main_animation.mp4" type="video/mp4">
+                    <p>
+                        Si vous voyez ce message, c'est que votre navigateur ne prend pas en charge les vidéos HTML5.
+                        Mettez à jour votre Navigateur web (Google, Opera, Edge, Firefox, Safari)
+                    </p>
+                </video>
+                <!-- Track by Track -->
+                <div class="bg-black opacity-70 w-screen h-screen inline-flex">
+                    <!-- To fit the content -->
+                    <div class="w-24 h-full bg-fuchsia-500"></div>
+                    <div class="w-full h-full bg-green-500 flex flex-col">
+                        <div class="w-full h-1/3 border-2"></div>
+                        <div class="w-full h-1/3"></div>
+                        <div class="w-full h-1/3 border-2"></div>
+                    </div>
+                </div>
+            </section>
+            <section id="artiste" class="bg-red-500 w-screen h-screen border-green-600 border-2">
+                <h1 class="text-center">Section 2</h1>
+            </section>
+            <section id="tracklist" class="bg-red-500 w-screen h-screen border-green-600 border-2">
+                <h1 class="text-center">Section 3</h1>
+            </section>
+            <section id="tour" class="bg-red-500 w-screen h-screen border-green-600 border-2">
+                <h1 class="text-center">Section 4</h1>
+            </section>
+        </div>
+    </main>
+    <footer id="contact" class="w-screen h-screen text-white">
+        <!-- Socials Contact -->
+        <div class="w-full h-1/4">
+            <div class="w-full h-1/2 inline-flex justify-center items-center">
+                <h1 class="capitalize text-5xl">suivez stromae</h1>
+            </div>
+            <div class="flex justify-center w-full h-1/2">
+                <div class="inline-flex w-1/4 h-full">
+                    <div class="flex justify-center items-center w-1/4 h-full">
+                        <div class="w-14 h-14">
+                            <a href="https://www.facebook.com/stromae/" target="_blank">
+                                <!-- Facebook icon -->
+                                <i class="fa-brands fa-square-facebook w-full h-full"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center w-1/4 h-full">
+                        <div class="w-14 h-14">
+                            <a href="https://www.instagram.com/stromae/" target="_blank">
+                                <!-- Instagram icon -->
+                                <i class="fa-brands fa-square-instagram w-full h-full"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center w-1/4 h-full">
+                        <div class="w-14 h-14">
+                            <a href="https://twitter.com/stromae" target="_blank">
+                                <!-- Twitter icon -->
+                                <i class="fa-brands fa-square-twitter w-full h-full"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex justify-center items-center w-1/4 h-full">
+                        <div class="w-14 h-14">
+                            <a href="https://www.youtube.com/channel/UCXF0YCBWewAj3RytJUAivGA" target="_blank">
+                                <!-- Youtube icon -->
+                                <i class="fa-brands fa-square-youtube w-full h-full"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Mosaert & Newsletter -->
+        <div class="inline-flex justify-evenly w-full h-1/2">
+            <!-- Mosaert -->
+            <div class="flex flex-col w-1/3 h-full">
+                <div class="border-l-indigo-700 flex flex-col justify-center items-center w-full h-1/2 ">
+                    <h1 class="capitalize text-5xl">Mosaert</h1>
+                    <div class="border-2 w-72 mt-4"></div>
+                </div>
+                <div class="border-l-indigo-700 w-full h-1/2 text-center">
+                    <div class="w-full h-1/2">
+                        <p>Le label créatif derrière le projet de Stromae, 
+                            actif <br> ans la musique, la mode et l'audiovisuel.
+                         </p>
+                    </div>
+                    <div class="w-full h-1/2">
+                        <a class="font-bold hover:underline visited:text-white" href="https://mosaert.com/about" target="_blank">Plus d'infos +</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-1/3 h-full">
+                <div class="flex flex-col w-full h-full">
+                    <div class="border-l-indigo-700 flex flex-col justify-center items-center w-full h-1/2 ">
+                        <h1 class="capitalize text-5xl">Newsletter</h1>
+                        <div class="border-2 w-72 mt-4"></div>
+                    </div>
+                    <div class="border-l-indigo-700 w-full h-1/2 text-center">
+                        <div class="w-full h-1/2">
+                            <p>
+                                Inscrivez-vous pour rester informé(e) des dernières <br>
+                                actualités concernant Stromae.
+                             </p>
+                        </div>
+                        <div class="w-full h-1/2">
+                            <form action="" method="get">
+                                <input type="email"  name="" id="" placeholder="E-mail" class="border-2 bg-transparent placeholder:text-center placeholder:italic w-60 h-10 mr-4">
+                                <button type="submit" class="border-2 w-10 h-10">
+                                    <i class="fa-solid fa-check"></i>
+                                </button>
+                            </form>
+                            <div class="h-auto mt-4">
+                                <a class="underline" href="https://www.stromae.com/fr/politique-de-confidentialite/" target="_blank">politique de confidentialité</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright & Cookies -->
+        <div class="w-full h-1/4 ">
+            <div class="inline-flex w-full h-1/2">
+                <div class="inline-flex justify-center items-center w-1/4 h-full">
+                    <a class="hover:underline active:text-blue-500" href="https://www.stromae.com/fr/cgu/" target="_blank">CGU</a>
+                </div>
+                <div class="inline-flex justify-center items-center w-1/4 h-full">
+                    <a class="hover:underline active:text-blue-500" href="https://www.stromae.com/fr/mentions-legales/" target="_blank">Mentions légales</a>
+                </div>
+                <div class="inline-flex justify-center items-center w-1/4 h-full">
+                    <a class="hover:underline active:text-blue-500" href="https://www.stromae.com/fr/politique-de-confidentialite/" target="_blank">Politique vie privée</a>
+                </div>
+                <div class="inline-flex justify-center items-center w-1/4 h-full">
+                    <select class="bg-transparent" name="lang" id="lang-page">
+                        <option class="bg-zinc-800" value="FR">FR</option>
+                        <option class="bg-zinc-800" value="EN">EN</option>
+                        <option class="bg-zinc-800" value="AR">AR</option>
+                        <option class="bg-zinc-800" value="NL">NL</option>
+                        <option class="bg-zinc-800" value="DE">DE</option>
+                        <option class="bg-zinc-800" value="IT">IT</option>
+                        <option class="bg-zinc-800" value="PT-BR">PT-BR</option>
+                        <option class="bg-zinc-800" value="PT-PT">PT-PT</option>
+                        <option class="bg-zinc-800" value="RU">RU</option>
+                        <option class="bg-zinc-800" value="ES">ES</option>
+                    </select>
+                </div>
+            </div>
+            <div class="inline-flex justify-center items-end w-full h-1/2 text-black">
+                <button class="bg-slate-50 w-28 h-12 rounded-tl-sm rounded-tr-sm hover:scale-105">Cookies</button>
+            </div>
+        </div>
+    </footer>
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- GSAP Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/Flip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/Observer.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/Draggable.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/EaselPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/MotionPathPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/PixiPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js"></script>
+    <!-- Google Firebase -->
+    <script type="module" src="./Scripts/firebase_scripts/firebase.config.js"></script>
+</body>
+</html>

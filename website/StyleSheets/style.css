@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color-background : #0D0D3F;
+}
+
+header {
+    background-color: var(--color-background);
+}
+
+footer {
+    background-color: var(--color-background);
+}   
+
+/* Inline Scroll CSS */
+::-webkit-scrollbar {
+    display: none;
+    overflow: auto;
+}

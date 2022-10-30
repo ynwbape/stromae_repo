@@ -1,0 +1,64 @@
+Technologies à utiliser : 
+Front : HTML, CSS, JS, Tailwind
+/* SASS, GSAP, */ 
+/* Bootstrap */ 
+
+Back : JS, Jquery, Firebase
+
+Servers, hébergement 
+
+// Pour accéder à mon site en live prod : 
+
+Pour Mac:
+http://192.168.140.1:5500/website/index.html
+
+Pour Mobile : 
+http://192.168.1.12:5500/website/index.html
+
+Pour lancer la production Tailwind : 
+npx tailwindcss -i ../website/StyleSheets/style.css -o ./dist/style.css --watch
+
+Version Desktop = En cours !
+Version Mobile = à faire !
+
+Header : 
+    Logo : 
+        favicon = à faire !
+        bouton  = à faire !
+    Nav : 
+        Lien inté = à faire !
+        Liens réseaux sociaux = à faire !
+Main : 
+    Section 1 :
+        Fond vidéo animé = fait !
+        TrackbyTrack Yeux = à faire !
+    Section 2 :
+        Slide d'images = à faire !
+        Paragraphes = à faire !
+    Section 3 :
+        Pochettes et CD = à faire !
+        Tracklist Spotify = = à faire !
+    Section 4 :
+        Map Google Customisé avec les lieux + Coordonnées = à faire !
+        Div Tournée avec les dates, lieux, recherches, bouton acheter tickets = à faire !
+Footer :
+    liens sociaux = fait !
+    mosaert + newsletter = fait !
+    cgi, mentions légales... = fait !
+    cookies = fait !
+
+Page d'administraion = à faire !
+
+Firebase :
+    l'Auth = à faire !
+    Créer la base de données = à faire !
+    hébergement du site = à faire !
+    App check = à faire !
+    Newsletter = à faire !
+
+Cookies : 
+    Fenetre modal = à faire !
+    Créer des cookies = à faire !
+    
+
+

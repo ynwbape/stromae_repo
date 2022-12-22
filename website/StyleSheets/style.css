@@ -6,13 +6,9 @@
     --color-background : #0D0D3F;
 }
 
-header {
+header, footer, .spotifyDiv, .buyAlbumButton, .dates-container {
     background-color: var(--color-background);
 }
-
-footer {
-    background-color: var(--color-background);
-}   
 
 /* Inline Scroll CSS */
 ::-webkit-scrollbar {

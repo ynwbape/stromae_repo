@@ -3,14 +3,32 @@
 @tailwind utilities;
 
 :root {
-    --color-background : #0D0D3F;
+    --main-color : #0D0D3F;
+    scrollbar-width: none;
 }
 
 header, footer, .spotifyDiv, .buyAlbumButton, .dates-container {
-    background-color: var(--color-background);
+    background-color: var(--main-color);
 }
 
-/* Inline Scroll CSS */
+.markDark {
+    color: var(--main-color);
+}
+
+.dates-container {
+    border-left: 6px solid var(--main-color);
+}
+
+.text-custom {
+ color: var(--main-color);
+}
+
+.datesExtendContainer:focus {
+    background-color: var(--main-color);
+    color: white;
+}
+
+/* Hide scrollbar for Google */
 ::-webkit-scrollbar {
     display: none;
     overflow: auto;

@@ -1,12 +1,3 @@
-Technologies à utiliser : 
-Front : HTML, CSS, JS, Tailwind
-/* SASS, GSAP, */ 
-/* Bootstrap */ 
-
-Back : JS, Jquery, Firebase
-
-Servers, hébergement 
-
 // Pour accéder à mon site en live prod : 
 
 Pour Mac:
@@ -16,33 +7,57 @@ Pour Mobile :
 http://192.168.1.12:5500/website/index.html
 
 Pour lancer la production Tailwind : 
-npx tailwindcss -i ../website/StyleSheets/style.css -o ./dist/style.css --watch
+old cmd :
+npx tailwindcss -i ../website/StyleSheets/style.css -o ./dist/style.css --watch 
+
+new cmd : 
+npx tailwindcss -i ../src/Styles/style.css -o ./dist/style.css --watch 
+
+Pour installer et utiliser MongoDB :
+ 
+Télécharger le msi et mongoshell depuis MongoDB
+
+installe mongodb, dézippe mongosh et met le dans le C:
+
+insérez "C:\mongosh-1.6.1\bin" et "C:\Program Files\MongoDB\Server\6.0\bin" dans le PATH (environnements windows)
+
+"mongod --version" pour voir la version de mongodb
+
+étapes pour lancer MongoDB : 
+
+   1) créer un dossier DB : "cd C:\ -> md "data/db"
+   2) "net start MongoDB" pour lancer mongo en service windows et "net stop MongoDB" pour le stopper
+   3) lancer le mongoshell avec mongosh.exe
+   4) lancer mongo compass
+   5) et voilà on est ready à créer et modif des dbs
+
+
 
 Version Desktop = En cours !
+Version Tablette = à faire !
 Version Mobile = à faire !
 
 Main : 
-    Section 1 : Finit !
     Section 2 :
         Slide d'images = à faire !
         Paragraphes = à faire !
-    Section 3 : Finit !
     Section 4 :
-        Map Google Customisé avec les lieux + Coordonnées = à faire !
-        Div Tournée avec les dates, lieux, recherches, bouton acheter tickets = à faire !
+        Map Google Customisé avec les lieux + Coordonnées = en cours !
+        Div Tournée avec les dates, lieux, recherches, bouton acheter tickets = en cours !
 
 Page d'administraion = à faire !
 
-Firebase :
+MonoDB :
     l'Auth = à faire !
     Créer la base de données = à faire !
-    hébergement du site = à faire !
     App check = à faire !
     Newsletter = à faire !
 
 Cookies : 
     Fenetre modal = à faire !
     Créer des cookies = à faire !
-    
+
+Github :
+    hébergement et déployer le site = à faire !    
 
 
